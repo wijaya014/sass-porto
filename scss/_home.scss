@@ -15,7 +15,8 @@
     font-size: 5rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
-    border-bottom: solid 2px set-text-color($primary-color);
+    margin-bottom: 1rem;
+    border-bottom: dashed 2px set-text-color($primary-color);
     &--last {
       color: $secondary-color;
       font-weight: 700;

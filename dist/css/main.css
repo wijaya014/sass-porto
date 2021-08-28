@@ -22,7 +22,8 @@
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-  border-bottom: solid 2px #fff;
+  margin-bottom: 1rem;
+  border-bottom: dashed 2px #fff;
 }
 
 .home__name--last {
@@ -151,6 +152,52 @@
   color: #ff652f;
 }
 
+.nav .menu-nav__link {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  font-weight: 300;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.nav .menu-nav__link::hover {
+  color: #ff652f;
+}
+
+.menu-nav__item:nth-child(1) {
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.menu-nav__item:nth-child(2) {
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.menu-nav__item:nth-child(3) {
+  -webkit-transition-delay: 0.45s;
+          transition-delay: 0.45s;
+}
+
+.menu-nav__item:nth-child(4) {
+  -webkit-transition-delay: 0.55s;
+          transition-delay: 0.55s;
+}
+
+.about {
+  padding-bottom: 2rem;
+}
+
+.about__bio-image {
+  height: 50vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background-size: cover;
+}
+
 body {
   background: #272727;
   color: #fff;
@@ -168,6 +215,10 @@ h3 {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.text-secondary {
+  color: #ff652f;
 }
 
 header {
